@@ -79,7 +79,7 @@
 
 - 各ニュース記事の信憑性を評価して表示する機能
     
-    ![IMG_0239.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/db1742ab-690c-4e30-a68e-16b11a3d977c/66a25996-5a43-4e98-8ac9-1ba0822720b1/IMG_0239.jpg)
+    ![IMG_0239.jpg](/images/IMG_0239.jpg)
     
 - AIによるニュース記事の要約
 - AIによる海外ニュース記事の翻訳
@@ -91,9 +91,9 @@
     - ユーザによって一票の格差を作る（信頼度の低いユーザは一票が0.3ポイント，信頼度の高いユーザは一票が2.3ポイント，的な）
         - ユーザー個人のニュース評価が正しかった回数，ニュース評価が誤っていた回数，一票のポイントをそれぞれ，x, y, zとするとこれらの関係は，定数a,bを用いて
             
-            ![IMG_0296.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/db1742ab-690c-4e30-a68e-16b11a3d977c/b7a2578e-4e21-4ee5-9fa2-659e6ed0bcd6/IMG_0296.jpg)
+            ![IMG_0296.jpg](/images/IMG_0296.jpg)
             
-            ![スクリーンショット 2024-01-21 20.24.06.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/db1742ab-690c-4e30-a68e-16b11a3d977c/cbb7e45a-38b8-41f2-9c30-207ac570affa/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-01-21_20.24.06.png)
+            ![スクリーンショット 2024-01-21 20.24.06.png](/images/スクリーンショット 2024-01-21 20.24.06.png)
             
 
 # このアプリの弱点
