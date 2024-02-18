@@ -93,7 +93,7 @@
             
             ![IMG_0296.jpg](/images/IMG_0296.jpg)
             
-            ![スクリーンショット 2024-01-21 20.24.06.png](/images/スクリーンショット 2024-01-21 20.24.06.png)
+            ![スクリーンショット 2024-01-21 20.24.06.png](/images/Function_Representing_the_Reliability_of_News.png)
             
 
 # このアプリの弱点
