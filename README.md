@@ -80,7 +80,7 @@
 
 - 「ニュースの信頼度」を数値化するアルゴリズムの設計
     - ユーザによって一票の格差を作る（例：信頼度の低いユーザは一票が0.3ポイント，信頼度の高いユーザは一票が2.3ポイント）
-    - ![function_movement](./images/function_movement.gif)
+    - ![function_movement](./readme_images/function_movement.gif)
     - f(x) = [一票のポイント]
     - x = [正しく評価した数] - [誤って評価した数]
 # このアプリの弱点
