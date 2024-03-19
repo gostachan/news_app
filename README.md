@@ -121,5 +121,5 @@
     - 気になるニュースがあったら共有する
 
 # 画面遷移図
-![画面遷移図](./readme_images/ui.jpeg)
+![ui](./readme_images/ui.jpeg)
 
