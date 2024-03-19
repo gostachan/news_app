@@ -122,4 +122,4 @@
 
 # 画面遷移図
 ![ui](./readme_images/ui.jpeg)
-
+![function_movement](./readme_images/function_movement.gif)
