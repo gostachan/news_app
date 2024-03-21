@@ -1,7 +1,8 @@
-// maps to root `/` URL
-
-import variables from './variables.module.scss'
+import variables from './page.scss'
 
 export default function Page() {
-  return <h1 style={{ color: variables.primaryColor }}>Hello, Next.js!</h1>
+  return (
+    <div className='container'>
+    </div>
+  )
 }
