@@ -1,0 +1,19 @@
+.form-button {
+  height: 100%;
+  margin-top: 25px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.form-button button:hover {
+  background-color: deepskyblue;
+}
+.form-button button {
+  background-color: skyblue;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 17px;
+  color: gray;
+}/*# sourceMappingURL=FormButton.css.map */

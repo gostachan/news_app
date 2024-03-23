@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: 10px;
+  align-items: center;
+  width: 80%;
+  margin: 150px auto;
+  height: 500px;
+}/*# sourceMappingURL=page.css.map */

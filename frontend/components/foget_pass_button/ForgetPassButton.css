@@ -1,0 +1,8 @@
+.forget-pass {
+  margin-top: 20px;
+  color: blue;
+}
+.forget-pass a:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid blue;
+}/*# sourceMappingURL=ForgetPassButton.css.map */

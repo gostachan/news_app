@@ -1,0 +1,12 @@
+.login-form {
+  background-color: aliceblue;
+  box-shadow: 2px 2px 5px 1px darkgray;
+  flex: 1;
+  width: 45%;
+  height: 80%;
+}
+.login-form .content {
+  margin: 10% auto;
+  width: 80%;
+  height: 80%;
+}/*# sourceMappingURL=LoginForm.css.map */

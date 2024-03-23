@@ -1,0 +1,22 @@
+.forget-pass {
+  margin-top: 20px;
+  color: blue;
+}
+.forget-pass a:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid blue;
+}
+
+form {
+  height: 100%;
+  position: relative;
+}
+form h1 {
+  color: dimgray;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid darkgray;
+}
+form .form-group {
+  height: 15%;
+  margin-top: 30px;
+}/*# sourceMappingURL=Form.css.map */
