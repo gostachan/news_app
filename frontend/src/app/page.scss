@@ -1,0 +1,97 @@
+body {
+
+  .container {
+    background-color: snow;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      height: 150px;
+      border: 1px solid darkgray;
+
+      .top-bar {
+        display: flex;
+        height: 60%;
+        border: 1px solid darkgray;
+
+        .top-bar-left {
+          margin-right: auto;
+          border: 1px solid darkgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .app-logo {
+            width: 200px;
+            height: 100%;
+            border: 1.5px solid darkgray;
+          }
+        }
+
+        .top-bar-right {
+          margin-left: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .search-bar {
+            input {
+              width: 200px;
+              padding: 5px;
+              border: 1px solid darkgray;
+            }
+
+            button {
+              margin-right: 20px;
+            }
+          }
+
+          button {
+            padding: 5px 10px;
+            margin-right: 10px;
+            border: none;
+            border: 1px solid darkgray;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .nav-bar {
+        height: 40%;
+        background-color: whitesmoke;
+
+        ul {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          list-style: none;
+
+          li {
+            a {
+              display: block;
+              padding: 10px 20px;
+              border-right: 1.5px solid darkgray;
+              text-decoration: none;
+              color: black;
+              font-weight: 500;
+            }
+
+            a:hover {
+              border-bottom: 4px solid steelblue;
+              font-weight: 700;
+            }
+          }
+
+          // 一番最初の要素が選択されている想定
+          li:first-child a {
+            border-bottom: 4px solid steelblue;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+  }
+}

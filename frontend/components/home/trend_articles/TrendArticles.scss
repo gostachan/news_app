@@ -1,0 +1,83 @@
+.trend-articles {
+  width: 30%;
+  border: 1px solid darkgray;
+  
+  .breaking-articles {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 5px;
+
+    .breaking-article {
+      padding-top: 5px;
+
+      a {
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: blue;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+
+      a:hover {
+        .title {
+          color: crimson;
+          border-bottom:1px solid crimson;
+        }
+      }
+
+      .type {
+        color: white;
+        background-color: rgb(235,72,82);
+        padding: 1px;
+        border-radius: 1px;
+        margin-right: 10px;
+      }
+    }
+  }
+  
+
+  .hot-articles {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 5px;
+
+    h1 {
+      display: inline-block;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .hot-article {
+      border-top: 1px solid darkgray;
+      padding-top: 5px;
+      margin-left: 5%;
+      display: flex;
+
+      .rank {
+        width: 15%;
+      }
+
+      .title {
+        padding: 0 3px;
+        width: 60%;
+      
+        a {
+          letter-spacing: 1px;
+          word-wrap: break-word;
+          white-space: normal;
+          color: blue;
+        }
+
+        a:hover {
+          color: crimson;
+          border-bottom:1px solid crimson;
+        }
+      }
+
+      img {
+        height: 75px;
+        width: 75px;
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@ export default function LoginPage() {
   
   return (
     <div className="container">
-      <Advatisement/>
+      <Advatisement width="45%" height="80%" margin="0 10% 0 0" />
       <LoginForm/>
     </div>
   )
