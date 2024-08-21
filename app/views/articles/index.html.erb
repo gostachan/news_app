@@ -1,0 +1,89 @@
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <div class="app-logo"><h1>ロゴ</h1></div>
+        </div>
+        <div class="top-bar-right">
+          <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>検索</button>
+          </div>
+          <button>login</button>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#">主要</a></li>
+          <li><a href="#">国内</a></li>
+          <li><a href="#">国際</a></li>
+          <li><a href="#">経済</a></li>
+          <li><a href="#">エンタメ</a></li>
+          <li><a href="#">スポーツ</a></li>
+          <li><a href="#">IT</a></li>
+          <li><a href="#">科学</a></li>
+          <li><a href="#">ライフ</a></li>
+          <li><a href="#">地域</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="main">
+        <div class="headings">
+
+          <% @articles.each do |article| %>
+            <div class="heading">
+              <div class="heading-container">
+                <img src="<%= square_image(article.urlToImage) %>" alt="alt">
+                <div class="heading-content">
+                  <div class="title">
+                    <a href="#"><%= article.title %></a>
+                  </div>
+                  <div class="meta-info"><p><%= article.publishedAt %></p></div>
+                </div>
+                <div class="trust-icon">
+                  <div class="article-trust-icon"></div>
+                  <div class="summary-trust-icon"></div>
+                </div>
+              </div>
+            </div>
+          <% end %>
+
+      </div>
+      <div class="trend-articles">
+        <div class="breaking-articles">
+          <div class="breaking-article">
+            <a href="#">
+              <p class="type">速報</p>
+              <p class="title">大谷結婚</p>
+            </a>
+          </div>
+          <div class="breaking-article">
+            <a href="#">
+              <p class="type">速報</p>
+              <p class="title">大谷結婚</p>
+            </a>
+          </div>
+        </div>
+        <div class="hot-articles">
+          <h1>ランキング</h1>
+          <div class="hot-article">
+            <div class="rank">
+              <h1>1. </h1>
+            </div>
+            <div class="title">
+              <a>「あんまり心開かないタイプなので」　若き日の大谷翔平が語っていた他人への「信頼」</a>
+            </div>
+            <img src="../imgs/test-img.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="advertisement">
+        <h1>広告</h1>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
